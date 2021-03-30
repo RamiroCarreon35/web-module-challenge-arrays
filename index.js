@@ -89,7 +89,6 @@ Use the addFlavor function below to do the following:
 
 
 function addFlavor(originalFlavors, flavor) {
-    /*your code here*/
     originalFlavors.unshift(flavor);
     return originalFlavors;
   }
@@ -331,5 +330,5 @@ export default{
     filterByWord,
     getAverageWordLength,
     getRandomFlavors
-}
 
+  }
